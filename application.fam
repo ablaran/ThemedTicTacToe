@@ -1,0 +1,17 @@
+# For details & more options, see documentation/AppManifests.md in firmware repo
+
+App(
+    appid="themedtictactoe",  # Must be unique
+    name="Themed Tic Tac Toe",  # Displayed in menus
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="themedtictactoe_app",
+    stack_size=2 * 1024,
+    fap_category="Games",
+    # Optional values
+    fap_version="0.1",
+    fap_icon="themedtictactoe.png",  # 10x10 1-bit PNG
+    fap_description="A themed Tic Tac Toe game",
+    fap_author="Ablaran",
+    fap_weburl="https://github.com/ablaran/ThemedTicTacToe",
+    fap_icon_assets="images",  # Image assets to compile for this application
+)
