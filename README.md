@@ -11,6 +11,10 @@
 - **Score Display**: View the victories for each player.
 - **Turn Indicator**: Easily see whose turn it is.
 
+##Preview
+
+![Main Screen](images/preview.png)
+
 ## Installation
 
 1. Download the .fap file in the release page.
