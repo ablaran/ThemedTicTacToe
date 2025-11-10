@@ -284,7 +284,6 @@ int32_t themedtictactoe_app(void* p) {
 
     while(running) {
         furi_delay_ms(50);
-        //view_port_update(viewport);
     }
 
     // Cleanup resources before exit
